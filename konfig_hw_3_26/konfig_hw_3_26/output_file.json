@@ -1,0 +1,15 @@
+{
+    "BASE": 10,
+    "FACTOR": 2,
+    "MULTIPLIER": 3,
+    "VALUE": 12,
+    "POWER_RESULT": 100,
+    "CONFIG": {
+        "KEY": 27,
+        "ANOTHER_KEY": 12,
+        "NESTED": {
+            "INNER_KEY": 5
+        }
+    },
+    "ANOTHER_RESULT": 21
+}

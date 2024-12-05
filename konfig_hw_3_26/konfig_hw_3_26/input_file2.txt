@@ -1,0 +1,17 @@
+set A = 1
+set B = 2
+set AA = 11
+set BB = 22
+
+C = ?(A + B + 1)
+
+DD = {
+    K = ?(pow(AA, B)),
+    KK = ?(A + B + AA + BB),
+    KKK = {
+        M = ?(1 + 5),
+        MM = {
+          LL = ?(pow(4, B),
+      }
+    }
+}

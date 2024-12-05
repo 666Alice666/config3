@@ -1,0 +1,23 @@
+" Конфигурация для тестирования
+
+set BASE = 10
+set FACTOR = 2
+set MULTIPLIER = 3
+
+" Пример сложения
+VALUE = ?(BASE + FACTOR)
+
+" Пример использования функции pow()
+POWER_RESULT = ?(pow(BASE, FACTOR))
+
+" Вложенный словарь
+CONFIG = {
+    KEY = ?(pow(MULTIPLIER, MULTIPLIER)),
+    ANOTHER_KEY = ?(BASE + FACTOR),
+    NESTED = {
+        INNER_KEY = ?(MULTIPLIER + FACTOR),
+    }
+}
+
+" Дополнительный пример с вычислением
+ANOTHER_RESULT = ?(BASE + FACTOR + pow(MULTIPLIER, 2))
